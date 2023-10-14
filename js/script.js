@@ -36,7 +36,7 @@ function displaySearchResults(results) {
             <div class="card-body">
                 <h5 class="card-title">${movie.Title}</h5>
                 <button class="btn btn-primary btn-sm favourite-button" data-imdbid="${movie.imdbID}">Add to Favourites</button>
-                <a href="movie.html?id=${movie.imdbID}" class="btn btn-secondary btn-sm more-button">More</a>
+                <a href="./pages/movie.html?id=${movie.imdbID}" class="btn btn-secondary btn-sm more-button">More</a>
             </div>
         `;
         searchResultsContainer.appendChild(movieCard);
